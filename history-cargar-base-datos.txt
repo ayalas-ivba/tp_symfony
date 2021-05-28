@@ -1,0 +1,1000 @@
+  139  composer create-project symfony/website-skeleton:​ "^4.4"​ curso1
+  140  cd ..
+  141  cd curso-symfony/
+  142  composer create-project symfony/website-skeleton:"^4.4" curso1
+  143  sudo apt-get update
+  144  sudo apt-get upgrade
+  145  apt list --upgradable
+  146  apt upgrade 
+  147  sudo apt upgrade 
+  148  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  149  php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  150  php composer-setup.php
+  151  php -r "unlink('composer-setup.php');"
+  152  php composer.phar
+  153  ls
+  154  rm -r curso1
+  155  php composer.phar create-project symfony/website-skeleton:"^4.4" curso1
+  156  cd ..
+  157  ls
+  158  cd php
+  159  ls
+  160  php --ini
+  161  cd /opt/lampp/htdocs/
+  162  php --version
+  163  cd ..
+  164  ls
+  165  cat README-wsrep 
+  166  find -name php
+  167  . /bin/php --version
+  168  cd /bin/
+  169  ls
+  170  php --version
+  171  . php
+  172  ls
+  173  ls ph*
+  174  find -name php
+  175  cd
+  176  find -name php
+  177  cd /
+  178  find -name php
+  179  sudo find -name php
+  180  /opt/lampp/bin/php --version
+  181  exit
+  182  env
+  183  /opt/lampp/htdocs/
+  184  cd /opt/lampp/htdocs/
+  185  php --version
+  186  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  187  php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  188  php composer-setup.php
+  189  php -r "unlink('composer-setup.php');"
+  190  ls -la
+  191  rmdir -r curso-symfony
+  192  rmdir -R curso-symfony
+  193  rm -r curso-symfony
+  194  php composer.phar create-project symfony/website-skeleton:"^4.4" curso1
+  195  echo 'php composer.phar create-project symfony/website-skeleton:"^4.4" curso1' > creacion-proyecto-symfony.txt
+  196  vi creacion-proyecto-symfony.txt 
+  197  ls
+  198  vi creacion-proyecto-symfony.txt 
+  199  cd curso1/
+  200  ls -la
+  201  git init
+  202  git add .
+  203  git commit -m "first commit"
+  204  git remote add origin https://github.com/ayalas-ivba/curso-symfony.git
+  205  git push -u origin master
+  206  git config --global user.email "you@example.com"
+  207  git config --global user.email "ayalas@vivienda.mosp.gba.gov.ar"
+  208  git config --global user.name "ayalas-ivba"
+  209  git push -u origin master
+  210  git status
+  211  git commit -m "first commit"
+  212  git status
+  213  git remote add origin git@github.com:ayalas-ivba/curso-symfony.git
+  214  git push -u origin main
+  215  git status
+  216  exit
+  217  ls
+  218  . inicio-xampp 
+  219  env
+  220  export PATH=$PATH
+  221  env
+  222  export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+  223  export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/opt/lampp/bin
+  224  php --version
+  225  cd
+  226  ls -la
+  227  cat .bashrc 
+  228  vi .bashrc 
+  229  sudo shutdown -h now
+  230  ls
+  231  cat instalacion-parte1.txt 
+  232  cat instalacion-parte2.txt 
+  233  history > instalacion-parte3.txt
+  234  cat instalacion-parte3.txt 
+  235  sudo su
+  236  cat instalacion-parte3.txt 
+  237  grep apt-get *
+  238  grep php *
+  239  grep PATH *
+  240  grep git *
+  241  exit
+  242  code
+  243  xcalc
+  244  env
+  245  code
+  246  exit
+  247  ls
+  248  . ir-a-curso.sh 
+  249  env
+  250  php --ver
+  251  php --version
+  252  ls -la
+  253  cd curso1/
+  254  ls -la
+  255  git status
+  256  rm .git
+  257  rm -r .git
+  258  cd .git
+  259  ls -la
+  260  rm -r *
+  261  sudo rm -r *
+  262  cd ..
+  263  rm -r .git
+  264  ls -la
+  265  git status
+  266  git init
+  267  git add .
+  268  git status
+  269  git commit -m "first commit"
+  270  git remote add origin git@github.com:ayalas-ivba/curso1.git
+  271  git push -u origin master
+  272  git@github.com:ayalas-ivba/curso1.git
+  273  ssh -T ayalas-ivba@github.com
+  274  ssh -T git@github.com
+  275  cd
+  276  ssh-keygen -t ed25515 -C "ayalas@vivienda.mosp.gba.gov.ar"
+  277  ssh-keygen -t ed25519 -C "ayalas@vivienda.mosp.gba.gov.ar"
+  278  cat /home/ayalas/.ssh/id_ed25519.pub
+  279  cd /opt/lampp/htdocs/
+  280  git status
+  281  cd curso1/
+  282  git status
+  283  git add .
+  284  git status
+  285  ls .git
+  286  git push -u origin master
+  287  echo "cd /opt/lampp/htdocs/curso1" > /home/ayalas/ir-a-curso.sh
+  288  cd
+  289  history > history-seteo-git-ssh.txt
+  290  . ir-a-curso.sh 
+  291  php --version
+  292  php composer.phar --version 
+  293  cd ..
+  294  php composer.phar --version 
+  295  php --version
+  296  cd curso1/
+  297  .code
+  298  apropos code
+  299  man code
+  300  cd
+  301  man code
+  302  code --help
+  303  apt-get update
+  304  sudo apt-get update
+  305  sudo apt-get upgrade
+  306  s
+  307  sudo apt autoremove
+  308  code --help
+  309  sudo apt install software-properties-common apt-transport-https
+  310  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+  311  sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
+  312  sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+  313  sudo apt-get update
+  314  code
+  315  sudo apt install x11-apps
+  316  code
+  317  cd
+  318  ls -la
+  319  cp .bashrc bashrc-old
+  320  vi .bashrc bashrc-old
+  321  vi .bashrc 
+  322  code
+  323  env
+  324  code .
+  325  sudo code .
+  326  . ir-a-curso.sh 
+  327  sudo code .
+  328  code .
+  329  code -r
+  330  apropos libX11
+  331  code --help
+  332  apropos code
+  333  x11-apps --help
+  334  man x11-apps
+  335  sudo apt install x11-apps
+  336  x11-apps
+  337  man x11-apps
+  338  xcalc
+  339  xcalc --help
+  340  xman help
+  341  env
+  342  export DISPLAY=:0
+  343  env
+  344  xman help
+  345  lspci
+  346  export DISPLAY=1
+  347  xman help
+  348  exit
+  349  cat .bashrc 
+  350  exit
+  351  shutdown -h now
+  352  ls
+  353  sudo ./VBoxLinuxAdditions.run 
+  354  code
+  355  exit
+  356  ls
+  357  . inicio-xampp 
+  358  . ir-a-curso.sh 
+  359  php bin/console about
+  360  symfony server:start
+  361  ls
+  362  cd config
+  363  ls
+  364  cd ..
+  365  ls
+  366  ls -la
+  367  vi .env
+  368  symfony server:start
+  369  vi .env
+  370  symfony server:start
+  371  vi .env
+  372  symfony server:start
+  373  netstat -natup
+  374  lampp status
+  375  cd
+  376  cat detengo-xampp 
+  377  sudo /opt/lampp/lampp status
+  378  . ir-a-curso.sh 
+  379  symfony server:start
+  380  vi .env
+  381  symfony server:start
+  382  tail /var/log/syslog
+  383  cd
+  384  ls
+  385  . detengo-xampp 
+  386  netstat -natup
+  387  . inicio-xampp 
+  388  netstat -natup
+  389  netstat -putana
+  390  ls -la
+  391  cat final-instalacion-cli-symfony.txt 
+  392  hsitory|grep symfony
+  393  history|grep symfony
+  394  history|more
+  395  ls
+  396  cat instalacion-parte3-root.txt 
+  397  . ir-a-curso.sh 
+  398  ls
+  399  cd ..
+  400  ls
+  401  cd
+  402  ls
+  403  sudo mv /home/ayalas/.symfony/bin/symfony /usr/local/bin/symfony
+  404  . ir-a-curso.sh 
+  405  symfony server:start
+  406  ls
+  407  ls -la
+  408  ls config/
+  409  sudo shutdown -h now
+  410  ls
+  411  . inicio-xampp 
+  412  . ir-a-curso.sh 
+  413  git status
+  414  symfony server:start
+  415  composer require annotations
+  416  ls
+  417  cd ..
+  418  ls
+  419  cat creacion-proyecto-symfony.txt 
+  420  cd curso1/
+  421  php composer.phar require annotations
+  422  cd ..
+  423  php composer.phar require annotations
+  424  php composer.phar 
+  425  php composer.phar -d curso1 require annotations
+  426  ls
+  427  php composer.phar 
+  428  php composer.phar status
+  429  php composer.phar -d curso1 status
+  430  ls
+  431  cat creacion-proyecto-symfony.txt 
+  432  composer
+  433  cd curso1
+  434  composer
+  435  cd
+  436  history > sale
+  437  grep composer sale
+  438  . ir-a-curso.sh 
+  439  ls
+  440  composer --version
+  441  php composer.phar status
+  442  ../php composer.phar status
+  443  php .. composer.phar status
+  444  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  445  php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  446  php composer-setup.php --filename=composer
+  447  php -r "unlink('composer-setup.php');"
+  448  composer --version
+  449  php composer require annotations
+  450  symfony check:requirements
+  451  php composer install
+  452  composer require twig
+  453  php composer require twig
+  454  cd
+  455  npm install --global yarn
+  456  sudo apt install npm
+  457  npm install --global yarn
+  458  sudo npm install --global yarn
+  459  exit
+  460  . ir-a-curso.sh 
+  461  ls
+  462  cd curso1
+  463  ls
+  464  cd
+  465  ls
+  466  . inicio-xampp 
+  467  exit
+  468  . ir-a-curso.sh 
+  469  php composer.phar status
+  470  php composer status
+  471  symfony server:start
+  472  php  composer require annotations
+  473  symfony server:start
+  474  php  composer require annotations
+  475  php bin/console debug:router
+  476  php bin /console make :controller
+  477  php bin/console debug:router
+  478  symfony server:start
+  479  cd ..
+  480  ls
+  481  cd curso_symfony_abril_ejemplos/templates/
+  482  ls
+  483  cat base.html.twig 
+  484  cd ..
+  485  cd curso1/
+  486  symfony server:start
+  487  git status
+  488  git add .
+  489  git status
+  490  git commit -m "funciona ejercicio2 en pagina con el mismo nombre"
+  491  push
+  492  git push
+  493  exit
+  494  . ir-a-curso.sh 
+  495  ls
+  496  symfony server:start
+  497  cd
+  498  . inicio-xampp 
+  499  . ir-a-curso.sh 
+  500  symfony server:start
+  501  git status
+  502  git add .
+  503  git commit -m "rta ejercicio2 en paginaejercicio2V2"
+  504  push
+  505  git push
+  506  ls
+  507  cd
+  508  history > history-hasta2020/04/30.txt
+  509  history > history-hasta20200430.txt
+  510  ls
+  511  cat history-hasta20200430.txt 
+  512  . ir-a-curso.sh 
+  513  cd ..
+  514  cd
+  515  ls
+  516  pwd
+  517  git clone https://github.com/ayalas-ivba/curso1.git
+  518  cd curso1/
+  519  ls
+  520  cd ..
+  521  mv curso1 bkcurso1
+  522  ls
+  523  . ir-a-curso.sh 
+  524  cd ..
+  525  cd curso_symfony_abril_ejemplos/
+  526  ls
+  527  cd src/
+  528  ls
+  529  cd Entity/
+  530  ls
+  531  cat Usuario.php 
+  532  exit
+  533  twig --version
+  534  composer twig --version
+  535  php composer twig --version
+  536  ls
+  537  . inicio-xampp 
+  538  . ir-a-curso.sh 
+  539  cd ..
+  540  history |more
+  541  php composer.phar create-project symfony/website-skeleton:"^4.4" tp_final
+  542  cd tp_final/
+  543  history > sale
+  544  grep require sale
+  545  composer require symfony/orm-pack
+  546  php composer require symfony/orm-pack
+  547  cd ..
+  548  cd curso
+  549  cd curso1
+  550  ls
+  551  cd ..
+  552  cd tp_final/
+  553  grep comproser sale
+  554  grep composer sale
+  555  env
+  556  sudo su
+  557  composer require symfony/orm-pack
+  558  php composer require symfony/orm-pack
+  559  php composer version
+  560  php composer --version
+  561  ../curso1/php composer --version
+  562  cd ..
+  563  cd curso1/
+  564  php composer --version
+  565  cd ..
+  566  cd tp_final/
+  567  ls
+  568  cat composer.json 
+  569  rm composer.json 
+  570  rm composer.lock 
+  571  php composer --version
+  572  ls
+  573  php composer require symfony/orm-pack
+  574  php composer require annotations
+  575  grep composer sale
+  576  php composer require annotations
+  577  grep annota sale
+  578  whoami
+  579  ls -la
+  580  composer require --dev maker-bundle
+  581  php composer require --dev maker-bundle
+  582  cd ..
+  583  rm -r tp_final
+  584  cd
+  585  cd /usr/local/bin/
+  586  ls
+  587  cd
+  588  whoami
+  589  ls
+  590  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  591  php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  592  php composer-setup.php
+  593  php -r "unlink('composer-setup.php');"
+  594  sudo mv composer.phar /usr/local/bin/composer
+  595  ls /usr/local/bin/
+  596  php composer --version
+  597  env
+  598  exit
+  599  php composer --version
+  600  cd /usr/local/bin/
+  601  ls -la
+  602  php composer --version
+  603  env
+  604  composer
+  605  cd
+  606  composer
+  607  composer --version
+  608  . ir-a-curso.sh |
+  609  . ir-a-curso.sh 
+  610  cd ..
+  611  ls
+  612  composer create-project symfony/website-skeleton:"^4.4" tp_final
+  613  cd tp_final/
+  614  composer require symfony/orm-pack
+  615  composer symfony/orm-pack --version
+  616  composer recipes
+  617  composer require annotations
+  618  composer require --dev maker-bundle
+  619  vi .env
+  620  php bin/console make:controller
+  621  symfony server:start
+  622  ls
+  623  ls src/
+  624  vi src/Controller/HomeController.php 
+  625  symfony server:start
+  626  vi src/Controller/HomeController.php 
+  627  symfony server:start
+  628  php bin/console make:entity
+  629  php bin/console doctrine:schema:update --force
+  630  composer require --dev doctrine/doctrine-fixtures-bundle
+  631* 
+  632  php bin/console doctrine:fixtures:load
+  633  vi src/DataFixtures/AppFixtures.php 
+  634  php bin/console doctrine:fixtures:load
+  635  symfony server:start
+  636  php bin/console make:controller
+  637  php bin/console cache:clear
+  638  composer require symfony/form
+  639  php bin/console cache:clear
+  640  ls
+  641  . ir-a-curso.sh 
+  642  cat .env
+  643  cd
+  644  ls
+  645  . detengo-xampp 
+  646  ls
+  647  . inicio-xampp 
+  648  . ir-a-curso.sh 
+  649  cd ..
+  650  cd tp_final/
+  651  symfony server:start
+  652  php bin/console debug:form
+  653  php bin/console make:form 
+  654  symfony server:start
+  655  php bin/console make:registration-form
+  656  symfony server:start
+  657  php bin/console debug:form FooType
+  658  make:registration-form
+  659  php bin/console make:registration-form
+  660  symfony server:start
+  661  cd ..
+  662  ls
+  663  cd tp_final/
+  664  symfony server:start
+  665  exit
+  666  . ir-a-curso.sh 
+  667  CD ..
+  668  cd ..
+  669  cd tp_final/
+  670  ls
+  671  php bin/console cache:clear
+  672  symfony server:start
+  673  cd
+  674  history > history20210506.txt
+  675  exit
+  676  sudo apt-get update
+  677  sudo apt-get upgrade
+  678  . ir-a-curso.sh 
+  679  cd
+  680  . inicio-xampp 
+  681  . ir-a-curso.sh 
+  682  cd ..
+  683  ls
+  684  cd tp_final/
+  685  symfony server:start
+  686  sudo symfony server:start
+  687  symfony server:start
+  688  php bin/console doctrine:fixtures:load
+  689  symfony server:start
+  690  php bin/console doctrine:fixtures:load
+  691  symfony server:start
+  692  cd ..
+  693  git clone https://github.com/FriendsOfSymfony/FOSCommentBundle.git
+  694  ls
+  695  cd FOSCommentBundle/
+  696  symfony server:start
+  697  exit
+  698  grep ROUTE *
+  699  grep ROUTE Controller/*
+  700  . ir-a-curso.sh 
+  701  cd ..
+  702  ls
+  703  cd tp_final/
+  704  ls
+  705  history > /home/ayalas/historia-anterior-al-restbundle.txt
+  706  composer require friendsofsymfony/rest-bundle
+  707  php bin/console make:
+  708  composer require friendsofsymfony/rest-bundle
+  709  composer require symfony/serializer
+  710  console make
+  711  console makephp bin/console make:
+  712  php bin/console make:
+  713  php bin/console make:controller 
+  714  symfony server:start
+  715  php bin/console cache:clear
+  716  symfony server:start
+  717  php bin/console make:controller --help
+  718  php bin/console cache:clear
+  719  symfony server:start
+  720  php bin/console make:controller --help
+  721  symfony server:start
+  722  php bin/console cache:clear
+  723  symfony server:start
+  724  cd
+  725  . inicio-xampp 
+  726  . ir-a-curso.sh 
+  727  cd ..
+  728  cd tp_final/
+  729  ls
+  730  php bin/console cache:clear
+  731  cd 
+  732  . ir-a-curso.sh 
+  733  cd ..
+  734  cd tp_final/
+  735  symfony composer req profiler --dev
+  736  php bin/console cache:clear
+  737  symfony server:start
+  738  exit
+  739  . inicio-xampp 
+  740  . ir-a-curso.sh 
+  741  cd ..
+  742  ls
+  743  cd tp_final/
+  744  ls
+  745  symfony server:start
+  746  history|grep annotation 
+  747  php bin/console debug:router
+  748  symfony server:start
+  749  php bin/console debug:router
+  750  php bin/console cache:clear
+  751  php bin/console debug:router
+  752  php bin/console cache:clear
+  753  symfony server:start
+  754  php bin/console cache:clear
+  755  symfony server:start
+  756  php bin/console cache:clear
+  757  symfony server:start
+  758  ls
+  759  composer install
+  760  php bin/console cache:clear
+  761  symfony server:start
+  762  date
+  763  symfony help
+  764  symfony local:check
+  765  symfony local:check:requeriments
+  766  symfony local:check:requirements
+  767  symfony help
+  768  symfony env:validate
+  769  console
+  770  php bin/console
+  771  php bin/console cache:clear
+  772  php bin/console debug:autowiring
+  773  php bin/console debug:autowiring serializer.mapping.class_discriminator_resolver
+  774  php bin/console debug:autowiring twig
+  775  symfony server:start
+  776  composer require annotations
+  777  symfony server:start
+  778  ls
+  779  cd src
+  780  ls
+  781  cd Controller/
+  782  ls
+  783  cd Rest/
+  784  ls
+  785  date
+  786  exit
+  787  . ir-a-curso.sh 
+  788  cd ..
+  789  cd tp_final/
+  790  ls -la
+  791  symfony server:start
+  792  cd
+  793  ls
+  794  ls -la
+  795  cd .symfony/
+  796  ls
+  797  cd cache/
+  798  ls
+  799  ls -la
+  800  cd ..
+  801  cd
+  802  mv .symfony .symfonyold
+  803  . ir-a-curso.sh 
+  804  cd ..
+  805  cd tp_final/
+  806  ls
+  807  cd var/
+  808  ls
+  809  cd cache/
+  810  ls -la
+  811  cd ..
+  812  symfony server:start
+  813  cd var/
+  814  ls
+  815  cd cache/
+  816  ls
+  817  cd dev/
+  818  ls
+  819  cd ..
+  820  mv cache cache-old
+  821  ls
+  822  cd log/
+  823  ls
+  824  cd ..
+  825  symfony server:start
+  826  ps -A
+  827  cd
+  828  . detengo-xampp 
+  829  ls
+  830  ls -la
+  831  rm -r .symfonyold/
+  832  rm -r .symfonyold
+  833  . ir-a-curso.sh 
+  834  cd ..
+  835  cd tp_final/
+  836  ls
+  837  ls -la
+  838  symfony server:start
+  839  php bin/console debug:router
+  840  symfony server:start
+  841  ./bin/console cache:pool:clear cache.app.
+  842  ./bin/console cache:pool:clear cache.app
+  843  symfony server:start
+  844  symfony server help
+  845  symfony server:log
+  846  symfony server:list
+  847  symfony server:status
+  848  symfony server:stop
+  849  symfony server:start
+  850  cd
+  851  . inicio-xampp 
+  852  . ir-a-curso.sh 
+  853  cd ..
+  854  cd tp_final/
+  855  ls -lat
+  856  cat .env.test 
+  857  cat symfony.lock 
+  858  ls
+  859  mv symfony.lock symfony.lock-old
+  860  symfony server:start
+  861  exit
+  862  . ir-a-curso.sh 
+  863  cd ..
+  864  cd tp_final/
+  865  php bin/console debug:autowiring 
+  866  php bin/console debug:autowiring --all
+  867  php bin/console debug:autowiring 
+  868  exit
+  869  sudo apt-get update
+  870  sudo apt-get upgrade
+  871  exit
+  872  sudo apt-get update
+  873  sudo apt-get upgrade
+  874  apropos nodejs
+  875  node --version
+  876  exit
+  877  sudo apt-get update
+  878  sudo apt-get upgrade
+  879  apt-get install chrome
+  880  sudo apt-get install chrome
+  881  sudo apt-cache search chrome
+  882  sudo apt-cache search software
+  883  sudo apt-cache search browser
+  884  cd Descargas/
+  885  ls
+  886  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  887  curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+  888  sudo apt-get install -y nodejs
+  889  npm --version
+  890  cd
+  891  . ir-a-curso.sh 
+  892  cd ..
+  893  cd
+  894  mkdir proyectos
+  895  cd proyectos/
+  896  mkdir vue1
+  897  cd vue1/
+  898  npm install -g @vue/cli
+  899  sudo npm install -g @vue/cli
+  900  vue --version
+  901  cd ..
+  902  vue create vue1
+  903  vue create vue-clase1
+  904  ls -la
+  905  cd ..
+  906  ls -la
+  907  cat .vuerc 
+  908  mv .vuerc .vuerc-old
+  909  vue create vue-clase1
+  910  ls -la
+  911  rm .vuerc-old 
+  912  ls
+  913  cd proyectos/
+  914  ls
+  915  rm -r vue1
+  916  ls -la
+  917  cd vue-clase1/
+  918  . code
+  919  npm run serve
+  920  ls
+  921  ps -A
+  922  cd proyectos/
+  923  ls
+  924  cd vue-clase1/
+  925  ls -la
+  926  code
+  927  cd ..
+  928  git clone https://github.com/aventex94/curso_symfony_4.git
+  929  cd curso_symfony_4/
+  930  cd ..
+  931  git clone https://github.com/aventex94/curso_vue.git
+  932  git clone https://github.com/aventex94/curso_vue_mayo.git
+  933  cd curso_vue_mayo/
+  934  npm install
+  935  npm run serve
+  936  cd ..
+  937  ls
+  938  cd vue-clase1/
+  939  ls -la
+  940  cd ..
+  941  ls
+  942  cd vue-clase1/
+  943  cd ..
+  944  history > history_20200522.txt
+  945  cat history_20200522.txt 
+  946  history|grep git
+  947  ls
+  948  cd vue-clase1/
+  949  git remote add origin git@github.com:ayalas-ivba/vue-clase1
+  950  git status
+  951  ls
+  952  ls -la
+  953  git add .
+  954  git status
+  955  git commit -m "first commit"
+  956  git remote add origing
+  957  git push -u origing master
+  958  git repo create git@github.com:ayalas-ivba/vue-clase1
+  959  git create repo  git@github.com:ayalas-ivba/vue-clase1
+  960  git
+  961  git cli
+  962  cli
+  963  cd ..
+  964  sudo rm -R vue-clase1 
+  965  vue create ipap-vue
+  966  cd ipap-vue/
+  967  git remote add origin git@github.com:ayalas-ivba/ipap-vue
+  968  git status
+  969  git push -u origing master
+  970  git push -u origin master
+  971  git remote add origin git@github.com:ayalas-ivba/ipap-vue.git
+  972  cd ..
+  973  vue create clases-vue
+  974  cd clases-vue/
+  975  git remote add origin git@github.com:ayalas-ivba/clases-vue.git
+  976  git push -u origin master
+  977  git remote add origin git@github.com:ayalas-ivba/clases-vue.git
+  978  git push -u origin master
+  979  git 
+  980  git show
+  981  git remote add origin git@github.com:ayalas-ivba/clases-vue.git
+  982  git remote add origin git@github.com:ayalas-ivba/clases_vue.git
+  983  git push -u origin master
+  984  history|grep git
+  985  git@github.com:ayalas-ivba/clases_vue.git
+  986  git status
+  987  cd 
+  988  ls
+  989  cat history-seteo-git-ssh.txt 
+  990  cd proyectos/
+  991  ls
+  992  ls -lt
+  993  cd clases-vue/
+  994  git status
+  995  git --help
+  996  git help -g
+  997  git cli
+  998  git help git
+  999  git-gui
+ 1000  git init
+ 1001  git status
+ 1002  git add .
+ 1003  git commit -m "first commit"
+ 1004  git remote add origin
+ 1005  git remote add origin git@github.com:ayalas-ivba/clases-vue.git
+ 1006  git remote remove origin
+ 1007  git remote add origin 
+ 1008  git push -u origin master
+ 1009  ls -la
+ 1010  cd
+ 1011  . ir-a-curso.sh 
+ 1012  ls -la
+ 1013  git remote remove origin
+ 1014  git remote add origin https://github.com/ayalas-ivba/clases_vue.git
+ 1015  git push -u origin master
+ 1016  git remote remove origin
+ 1017  git remote add origin https://github.com/ayalas-ivba/curso1
+ 1018  git push -u origin master
+ 1019  cd 
+ 1020  cd proyectos/
+ 1021  ls
+ 1022  ls -lt
+ 1023  cd ipap_vue
+ 1024  cd ipap-vue
+ 1025  git remote remove origin
+ 1026  git remote add origin https://github.com/ayalas-ivba/ipap-vue
+ 1027  git push -u origin master
+ 1028  cd ..
+ 1029  ls
+ 1030  sudo rm -R clases-vue
+ 1031  ls
+ 1032  cd ipap-vue/
+ 1033  git status
+ 1034  cd 
+ 1035  . ir-a-curso.sh 
+ 1036  ls
+ 1037  cd ..
+ 1038  ls
+ 1039  mv tp_final tp_final_old
+ 1040  composer create-project symfony/website-skeleton:"^4.4" tp_final
+ 1041  cd tp_final
+ 1042  git init
+ 1043  git add .
+ 1044  git commit -m "first commit"
+ 1045  git remote add origin https://github.com/ayalas-ivba/tp_final
+ 1046  git push -u origin master
+ 1047  git status
+ 1048  cat /home/ayalas/history20210506.txt 
+ 1049  composer require symfony/orm-pack
+ 1050  composer require annotations
+ 1051  php bin/console make:controller
+ 1052  php bin/console make:entity
+ 1053  exit
+ 1054  cat /home/ayalas/history20210506.txt 
+ 1055  . ir-a-curso.sh 
+ 1056  ls
+ 1057  cd config/
+ 1058  ls
+ 1059  cd ..
+ 1060  cat .env
+ 1061  cd
+ 1062  cat /home/ayalas/history20210506.txt 
+ 1063  ls
+ 1064  . inicio-xampp 
+ 1065  cat /home/ayalas/history20210506.txt 
+ 1066  exit
+ 1067  . detengo-xampp 
+ 1068  exit
+ 1069  cd
+ 1070  cd proyectos/
+ 1071  ls
+ 1072  cd curso_symfony_4/
+ 1073  ls
+ 1074  . ir-a-curso.sh 
+ 1075  ls
+ 1076  cd ..
+ 1077  ls
+ 1078  cd tp_final
+ 1079  lñs
+ 1080  ls
+ 1081  cd
+ 1082  . inicio-xampp 
+ 1083  . ir-a-curso.sh 
+ 1084  cd ..
+ 1085  ls
+ 1086  git clone https://github.com/aventex94/curso_symfony_4.git
+ 1087  cd cur
+ 1088  cd curso_symfony_4/
+ 1089  composer install
+ 1090  sudo apt-get update
+ 1091  sudo apt-get upgrade
+ 1092  . inicio-xampp 
+ 1093  . ir-a-curso.sh 
+ 1094  cd ..
+ 1095  ls
+ 1096  cd curso_symfony_4/
+ 1097  ls -la
+ 1098  cat .env
+ 1099  cat ../curso1/.env
+ 1100  vi .env
+ 1101  composer install
+ 1102  npm install --force
+ 1103  php bin/console debug:router
+ 1104  exit
+ 1105  symfony server:start
+ 1106  composer require nelmio/api-doc-bundle:^2.0
+ 1107  npm install --force 
+ 1108  npm install -g npm
+ 1109  sudo npm install -g npm
+ 1110  npm install --force 
+ 1111  symfony server:start
+ 1112  composer install
+ 1113  npm install --force
+ 1114  ls -la
+ 1115  symfony server:start
+ 1116  exit
+ 1117  ls
+ 1118  . detengo-xampp 
+ 1119  . inicio-xampp 
+ 1120  . ir-a-curso.sh 
+ 1121  cd ..
+ 1122  ls
+ 1123  cd curso_symfony_4/
+ 1124  php bin/console doctrine:fixtures:load
+ 1125  composer require doctrine/doctrine-fixtures-bundle --dev
+ 1126* php doctrine orm:generate-entities
+ 1127  php bin/console doctrine orm:generate-entities
+ 1128  php bin/console doctrine:database:drop
+ 1129  php bin/console doctrine:database:drop --force
+ 1130  php bin/console doctrine:database:create
+ 1131  php bin/console doctrine:fixtures:load
+ 1132  php bin/console doctrine:migrations:generate
+ 1133  php $ php doctrine orm:schema-tool:create --dump-sql
+ 1134  php bin/console doctrine orm:schema-tool:create --dump-sql
+ 1135  php bin/console doctrine:schema:create --dump-sql
+ 1136  php bin/console doctrine:schema:create
+ 1137  php bin/console doctrine:fixtures:load
+ 1138  history > history-cargar-base-datos.txt
